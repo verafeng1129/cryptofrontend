@@ -38,8 +38,6 @@ const Homepage = () => {
         <Title level={3}><Link to="/news">Show more</Link></Title>
       </div>
       <News simplified />
-    
-
       </>
   );
 };
