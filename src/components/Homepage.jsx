@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography, Row, Col, Statistic } from 'antd';
 import { Link } from 'react-router-dom';
 import Cryptocurrencies from './Cryptocurrencies';
-//import News from './News';
+import News from './News';
 
 import { useGetCryptosQuery } from '../services/cryptoApi';
 
@@ -37,7 +37,8 @@ const Homepage = () => {
         <Title level={2} className="home-title">Latest Crypto News</Title>
         <Title level={3}><Link to="/news">Show more</Link></Title>
       </div>
-     
+      <News simplified />
+    
 
       </>
   );
